@@ -13,6 +13,8 @@
 body {
     background-image: url("https://cdnb.artstation.com/p/assets/images/images/047/946/253/original/sungjin-fuji-lion-bg-hd-2-0.gif?1648820357");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(13, 41, 51);
     overflow: hidden;
 }
 
@@ -53,8 +55,17 @@ body {
     border-radius: 15px;
 }
 
-.resultShifumi {
+#countUser {
     color: whitesmoke;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+#resultShifumi {
+    color: whitesmoke;
+    position: absolute;
+    top: 69%;
 }
 
 /* Containeur de l'ordis*/
@@ -70,6 +81,19 @@ body {
     padding: 2%;
     margin: 2%;
     border-radius: 15px;
+}
+
+#countOrdis {
+    color: whitesmoke;
+    position: absolute;
+    top: 35%;
+    left: 59.5%;
+}
+
+#comOrdis {
+    color: whitesmoke;
+    position: absolute;
+    top: 69%;
 }
 
 /* Bouton shifumi */
