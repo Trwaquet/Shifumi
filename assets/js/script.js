@@ -59,8 +59,9 @@ button[0].addEventListener('click', () => {
 Et entre pierre, papier, ciseaux, lezard, spock */
 
     let result = document.getElementById('resultShifumi');
-    let comOrdis = document.getElementById('comOrdis')
-
+    let comOrdis = document.getElementById('comOrdis');
+    let countUser = document.getElementById('countUser') = 0;
+    
     if (computerChoice == 'rock'){
         result.textContent = 'Égalité.';
         comOrdis.textContent = 'Je suis dans ta tête.'
@@ -71,7 +72,8 @@ Et entre pierre, papier, ciseaux, lezard, spock */
     }
     else if (computerChoice == 'scissors'){
         result.textContent = 'Vous avez gagné !';
-        comOrdis.textContent = 'Nani !'
+        comOrdis.textContent = 'Nani !';
+        countUser = countUser ++;
     }
     else if (computerChoice == 'lezard'){
         result.textContent = 'Vous avez gagné !';
