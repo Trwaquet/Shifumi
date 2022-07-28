@@ -55,11 +55,22 @@ body {
     border-radius: 15px;
 }
 
-#countUser {
+.countUser {
     color: whitesmoke;
     position: absolute;
     top: 35%;
     left: 15%;
+}
+
+#userChoiceImg{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 25%;
+    border: 2px whitesmoke solid;
+    position: absolute;
+    top: 40%;
+    border-radius: 5px;
 }
 
 #resultShifumi {
@@ -83,11 +94,22 @@ body {
     border-radius: 15px;
 }
 
-#countOrdis {
+.countOrdis {
     color: whitesmoke;
     position: absolute;
     top: 35%;
     left: 59.5%;
+}
+
+#ordisChoiceImg{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 25%;
+    border: 2px whitesmoke solid;
+    position: absolute;
+    top: 40%;
+    border-radius: 5px;
 }
 
 #comOrdis {
