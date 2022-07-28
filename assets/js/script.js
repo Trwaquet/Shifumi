@@ -213,7 +213,7 @@ Et entre pierre, papier, ciseaux, lezard, spock */
     })
 
 
-/* ----- Ce Bouton représente la Feuille ----- */
+/* ----- Ce Bouton représente le Lezard ----- */
 
     button[3].addEventListener('click', () => {
     
@@ -282,7 +282,7 @@ Et entre pierre, papier, ciseaux, lezard, spock */
     })
 
 
-/* ----- Ce Bouton représente la Feuille ----- */
+/* ----- Ce Bouton représente Spock ----- */
 
     button[4].addEventListener('click', () => {
     
