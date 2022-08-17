@@ -11,29 +11,33 @@
 </head>
 
 <body>
-    <div id="titreOne">
+    <div id="title">
         <h1>Let's do a Shifumi !</h1>
     </div>
     <div class="containerGame">
         <div class="containerUser">
-            <div id="resultShifumi"></div>
-            <div class="countUser">Votre score :<p id="countUser"></p></div>
+            <div class="countUser">Votre score : <p id="countUser"></p></div>
             <div id="userChoiceImg"></div>
+            <div id="resultShifumi"></div>
+            <div id="choiceUser">
             <input type="image" src="./assets/img/Rock.png" id="rock" value="Pierre">
             <input type="image" src="./assets/img/Paper.png" id="paper" value="Papier">
             <input type="image" src="./assets/img/Scissors.png" id="scissor" value="Ciseaux">
             <input type="image" src="./assets/img/Lezard.png" id="lezard" value="Lezard">
             <input type="image" src="./assets/img/Spock.png" id="spock" value="Spock">
+            </div>
         </div>
         <div class="containerOrdis">
-            <div id="comOrdis"></div>
             <div class="countOrdis">Score d'Ordis :<p id="countOrdis"></p></div>
             <div id="ordisChoiceImg"></div>
+            <div id="comOrdis"></div>
+            <div id="choiceOrdis">
             <input type="image" src="./assets/img/Rock.png" id="rock" value="Pierre" disabled>
             <input type="image" src="./assets/img/Paper.png" id="paper" value="Papier" disabled>
             <input type="image" src="./assets/img/Scissors.png" id="scissor" value="Ciseaux" disabled>
             <input type="image" src="./assets/img/Lezard.png" id="lezard" value="Lezard" disabled>
             <input type="image" src="./assets/img/Spock.png" id="spock" value="Spock" disabled>
+            </div>
         </div>
     </div>
     <script src="./assets/js/script.js"></script>

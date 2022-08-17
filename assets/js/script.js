@@ -13,26 +13,26 @@ Le "if" représente les choix en fonction du nombre choisi. */
     if (computerChoice < 0.20)
     {
         computerChoice = 'rock';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Rock 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Rock 250px.png' width=100% />";
     }
     else if(computerChoice <= 0.40)
     {
         computerChoice = 'paper';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Paper 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Paper 250px.png' width=100% />";
     }
     else if(computerChoice <= 0.60)
     {
         computerChoice = 'scissors';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Scissors 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Scissors 250px.png' width=100% />";
     }
     else if (computerChoice <= 0.80)
     {
         computerChoice = 'lezard';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Lezard 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Lezard 250px.png' width=100% />";
     }
     else {
         computerChoice = 'spock';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Spock 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Spock 250px.png' width=100% />";
     }
 
 /* Cette fonction sert a savoir qui gagne entre l'utilisateur et Ordis.
@@ -41,7 +41,7 @@ Et entre pierre, papier, ciseaux, lezard, spock */
     let result = document.getElementById('resultShifumi');
     let comOrdis = document.getElementById('comOrdis');
     
-    document.getElementById('userChoiceImg').innerHTML="<img src='./assets/img/Rock 250px.png' width=220px />";
+    document.getElementById('userChoiceImg').innerHTML="<img src='./assets/img/Rock 250px.png' width=100% />";
     
     if (computerChoice == 'rock'){
         result.textContent = 'Égalité.';
@@ -84,33 +84,33 @@ Et entre pierre, papier, ciseaux, lezard, spock */
     if (computerChoice < 0.20)
     {
         computerChoice = 'rock';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Rock 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Rock 250px.png' width=100% />";
     }
     else if(computerChoice <= 0.40)
     {
         computerChoice = 'paper';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Paper 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Paper 250px.png' width=100% />";
     }
     else if(computerChoice <= 0.60)
     {
         computerChoice = 'scissors';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Scissors 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Scissors 250px.png' width=100% />";
     }
     else if (computerChoice <= 0.80)
     {
         computerChoice = 'lezard';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Lezard 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Lezard 250px.png' width=100% />";
     }
     else {
         computerChoice = 'spock';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Spock 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Spock 250px.png' width=100% />";
     }
 
 /* Cette fonction sert a savoir qui gagne entre l'utilisateur et Ordis.
 Et entre pierre, papier, ciseaux, lezard, spock */
 
     let result = document.getElementById('resultShifumi');
-    document.getElementById('userChoiceImg').innerHTML="<img src='./assets/img/Paper 250px.png' width=220px />";
+    document.getElementById('userChoiceImg').innerHTML="<img src='./assets/img/Paper 250px.png' width=100% />";
 
     if (computerChoice == 'paper'){
         result.textContent = 'Égalité.';
@@ -153,33 +153,33 @@ Et entre pierre, papier, ciseaux, lezard, spock */
     if (computerChoice < 0.20)
     {
         computerChoice = 'rock';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Rock 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Rock 250px.png' width=100% />";
     }
     else if(computerChoice <= 0.40)
     {
         computerChoice = 'paper';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Paper 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Paper 250px.png' width=100% />";
     }
     else if(computerChoice <= 0.60)
     {
         computerChoice = 'scissors';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Scissors 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Scissors 250px.png' width=100% />";
     }
     else if (computerChoice <= 0.80)
     {
         computerChoice = 'lezard';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Lezard 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Lezard 250px.png' width=100% />";
     }
     else {
         computerChoice = 'spock';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Spock 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Spock 250px.png' width=100% />";
     }
 
 /* Cette fonction sert a savoir qui gagne entre l'utilisateur et Ordis.
 Et entre pierre, papier, ciseaux, lezard, spock */
 
     let result = document.getElementById('resultShifumi');
-    document.getElementById('userChoiceImg').innerHTML="<img src='./assets/img/Scissors 250px.png' width=220px />";
+    document.getElementById('userChoiceImg').innerHTML="<img src='./assets/img/Scissors 250px.png' width=100% />";
 
     if (computerChoice == 'scissors'){
         result.textContent = 'Égalité.';
@@ -222,33 +222,33 @@ Et entre pierre, papier, ciseaux, lezard, spock */
     if (computerChoice < 0.20)
     {
         computerChoice = 'rock';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Rock 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Rock 250px.png' width=100% />";
     }
     else if(computerChoice <= 0.40)
     {
         computerChoice = 'paper';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Paper 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Paper 250px.png' width=100% />";
     }
     else if(computerChoice <= 0.60)
     {
         computerChoice = 'scissors';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Scissors 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Scissors 250px.png' width=100% />";
     }
     else if (computerChoice <= 0.80)
     {
         computerChoice = 'lezard';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Lezard 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Lezard 250px.png' width=100% />";
     }
     else {
         computerChoice = 'spock';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Spock 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Spock 250px.png' width=100% />";
     }
 
 /* Cette fonction sert a savoir qui gagne entre l'utilisateur et Ordis.
 Et entre pierre, papier, ciseaux, lezard, spock */
 
     let result = document.getElementById('resultShifumi');
-    document.getElementById('userChoiceImg').innerHTML="<img src='./assets/img/Lezard 250px.png' width=220px />";
+    document.getElementById('userChoiceImg').innerHTML="<img src='./assets/img/Lezard 250px.png' width=100% />";
 
     if (computerChoice == 'lezard'){
         result.textContent = 'Égalité.';
@@ -291,33 +291,33 @@ Et entre pierre, papier, ciseaux, lezard, spock */
     if (computerChoice < 0.20)
     {
         computerChoice = 'rock';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Rock 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Rock 250px.png' width=100% />";
     }
     else if(computerChoice <= 0.40)
     {
         computerChoice = 'paper';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Paper 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Paper 250px.png' width=100% />";
     }
     else if(computerChoice <= 0.60)
     {
         computerChoice = 'scissors';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Scissors 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Scissors 250px.png' width=100% />";
     }
     else if (computerChoice <= 0.80)
     {
         computerChoice = 'lezard';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Lezard 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Lezard 250px.png' width=100% />";
     }
     else {
         computerChoice = 'spock';
-        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Spock 250px.png' width=220px />";
+        document.getElementById('ordisChoiceImg').innerHTML="<img src='./assets/img/Spock 250px.png' width=100% />";
     }
 
 /* Cette fonction sert a savoir qui gagne entre l'utilisateur et Ordis.
 Et entre pierre, papier, ciseaux, lezard, spock */
 
     let result = document.getElementById('resultShifumi');
-    document.getElementById('userChoiceImg').innerHTML="<img src='./assets/img/Spock 250px.png' width=220px />";
+    document.getElementById('userChoiceImg').innerHTML="<img src='./assets/img/Spock 250px.png' width=100% />";
 
     if (computerChoice == 'spock'){
         result.textContent = 'Égalité.';
